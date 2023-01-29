@@ -143,21 +143,26 @@ align-items: center;
 
 .call-to-action-background {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     padding: 20px 40px;
     margin: 80px 40px;
     background: #3882f6;
     color: #f9faf8;
     border-radius: 10px;
     max-width: 800px;
-    gap: 40px;
+    gap: 20px;
 }
 
 .call-to-action-heading {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: -10px;
+}
+
+.call-to-action-text {
+    max-width: 500px;
 }
 
 .call-to-action-background button {
@@ -167,7 +172,6 @@ align-items: center;
     border-radius: 5px;
     border: 2px solid #f9faf8;
     font-weight: bold;
-    
 }
 
 /* Footer */
